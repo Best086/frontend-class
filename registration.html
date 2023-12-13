@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Sign Up</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css" />
+</head>
+
+<body>
+	<video autoplay muted loop>
+		<source src="video/laurel.mp4" type="video/mp4">
+	</video>
+
+	<div class="main">
+		<form>
+			<div class="form">
+				<header>Sign Up</header>
+				<br />
+				<input type="text" id="text" placeholder="Full Name" required /><br />
+				<input type="tel" id="number" placeholder="Phone Number"
+					pattern="[0-9] {3} -[0-9] {3} [0-9] {3}- [0-9] {3}" required /><br />
+				<input type="text" id="email" placeholder="Email Address" required /><br />
+				<input type="text" id="username" placeholder="Username" required /><br />
+				<input type="Password" id="password" placeholder="Password" required /><br />
+				<input type="Password" id="re-password" placeholder="Re-enter Password" required /><br />
+				<button type="submit" class="button" onclik="alert('Congratulations!')" ;>
+					Sign Up</button><br />
+				<p>Already have an account? <a href="login.html">Login</a></p>
+			</div>
+		</form>
+	</div>
+</body>
+
+</html>
